@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #19A1AE;
+  background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+  background-position: -48vw -93vh, 32vw 42vh;
+  background-attachment: fixed;
+  background-size: 100% 100vw, 100% 100vw;
+  background-repeat: no-repeat;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.card-box {
+  background-color: white;
+  width: 326px;
+  height: 374px;
+  border-radius: 10px;
+}
+
+#background-card {
+  background-image: url("images/bg-pattern-card.svg");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.card-container {
+  position: relative;
+  top: -375px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pp-container {
+  position: relative;
+  top: -16px;
+  width: 96px;
+  background-image: url("images/image-victor.jpg");
+  border: solid 5px white;
+  border-radius: 100px;
+  height: 96px;
+  background-color: black;
+  -webkit-transition: -webkit-transform 2s;
+  transition: -webkit-transform 2s;
+  transition: transform 2s;
+  transition: transform 2s, -webkit-transform 2s;
+}
+
+.pp-container:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.line {
+  position: relative;
+  top: 50px;
+  width: 324px;
+  border: solid 1px #E8E9EC;
+}
+
+.value-container {
+  position: relative;
+  top: 5pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 0px;
+}
+
+.place {
+  position: relative;
+  top: 20px;
+  left: 35px;
+}
+
+.font {
+  font-family: "Kumbh Sans";
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.regular {
+  color: #6B7082;
+  font-size: 10px;
+}
+
+.size1 {
+  font-size: 18px;
+}
+
+.size2 {
+  font-size: 14px;
+}
+
+.followers {
+  position: relative;
+  left: -3pc;
+  text-align: center;
+}
+
+.likes {
+  text-align: center;
+}
+
+.photos {
+  text-align: center;
+  position: relative;
+  right: -3pc;
+}
+/*# sourceMappingURL=style.css.map */
